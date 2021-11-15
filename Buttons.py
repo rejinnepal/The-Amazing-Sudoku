@@ -8,8 +8,11 @@ class Tab:
     self.image = pg.Surface((width, height))
     self.rect = self.image.get_rect()
     pg.display.set_caption('Welcome to THE AMAZING SUDOKU!!!')
-    image = pg.image.load('THE AMAZING SUDOKU.png')
+    image = pg.image.load('The_Amazing_Sudoku.png')
     pg.display.set_icon(image)
+    screen = pg.display.set_mode((601, 601))
+    background = pg.image.load("Background_Image.jpg")
+    screen.blit(background, (601, 601))
     self.position = (a, b)
     self.rect.topleft = self.position
     self.text = text
@@ -47,7 +50,7 @@ class Tab:
 
   # This function helps to input a number (1 to 9) in the small box.
   def input_text(self, text):
-    font = pg.font.SysFont("calibri", 20)
+    font = pg.font.SysFont("helvetica", 20)
     text = font.render(text, False, (0,0,0))
     width, height = text.get_size()
     a = (self.width - width) // 2

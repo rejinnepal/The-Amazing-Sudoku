@@ -31,8 +31,8 @@ Please read this file before you start playing the THE AMAZING SUDOKU game.
     GREY colour: It represents the box that had the numbers in since the beginning of the game.
 
 
-5. What do the different tabs do?
---> These are the functions of the tabs:
+5. What do the different buttons do?
+--> These are the functions of the buttons:
     Check My Game : It checks if the game played so far is correct or not. The boxes that are correct are white whereas the incorrect boxes are ****greenish****.
     Easy: It chooses the easy-level game and sets the sudoku board accordingly.
     Medium: It chooses the medium-level difficult game and sets the sudoku board accordingly.
@@ -48,6 +48,8 @@ Please read this file before you start playing the THE AMAZING SUDOKU game.
 7. What to input inside the boxes?
 --> Since THE AMAZING GAME is a number game, every input should be a number from 1 to 9, 0 excluded. No any alphabet or character is allowed in the box.
 
+8. How can I start the game?
+--> To start the game, firstly, go to the main.py file. When you are in the main.py file, run that file. This will load the game, and you can see a new The Amazing Sudoku game window. 
 
 8. How can I get a sample Sudoku solution? Or how can I know if any game is correct or not without clicking on "Check My Game"?
 --> For your ease, a sample game is provided below.
@@ -86,9 +88,12 @@ Please read this file before you start playing the THE AMAZING SUDOKU game.
 11. Who can I contact to in case I need further assistance in playing the game?
 --> In case of further assistance required, you can email the developer at rejinnepal815@gmail.com. 
 
-
-______________
+___________
 Game Credit
-______________
+___________
 
 I would like to give the work credit for the website https://nine.websudoku.com/?level={} for allowing me to get the sudoku board based on different difficulty levels. Also, I am extremely grateful towards the YouTube Channel "A Plus Coding" (https://www.youtube.com/channel/UC-pLL_SFEm6B9Eeyr-V424Q/featured) for their pygame and sudoku video. The video from "A Plus Coding" helped me in creating a milestone in THE AMAZING SUDOKU project. 
+
+------------------------------
+ALL THE BEST WITH THIS GAME!!!
+------------------------------
